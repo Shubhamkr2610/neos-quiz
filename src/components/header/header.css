@@ -1,0 +1,29 @@
+.header{
+    color: var(--quiz-color-primary);
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 0 5px 12px #7474f2;
+}
+
+.brand-title{
+    text-transform: uppercase;
+    font-size: 5vw;
+    font-family: "Montserrat",  sans-serif;
+    cursor: pointer;
+   
+}
+.guide-button{ 
+    font-family:"Poppins", sans-serif;
+    width: 8rem;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: none;
+    background:  var(--quiz-color-primary);
+    color: var(--quiz-color-secondary);
+    cursor: pointer;
+}

@@ -1,0 +1,23 @@
+
+.footer-container{
+    color: var(--quiz-color-primary);
+    padding: 2rem 0rem;
+    height: auto;
+    width: 100%;
+   border-radius: 10px;
+    box-shadow: 0px 0px 16px #7474f2;
+   font-family: "Montserrat",  sans-serif;
+}
+.footer-title{
+  text-align: center;
+}
+.link-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    cursor: pointer;
+    gap: 1rem;
+}
+.social-link{
+    font-size: 1.5rem;
+}
