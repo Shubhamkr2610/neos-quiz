@@ -1,1 +1,10 @@
 
+:root {
+    --quiz-color-primary: #0000b7;
+    --quiz-color-secondary:#ffffff;
+    --quiz-color-shadow:(#7474f2);
+    --quiz-color-border:#000000;
+    --quiz-color-navbar:#c7f0fa;
+    --quiz-color-form:#f8f4f4;
+    --quiz-wishlist-color:#696969;
+}
