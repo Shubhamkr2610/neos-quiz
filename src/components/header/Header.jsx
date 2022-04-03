@@ -10,7 +10,7 @@ export const Header = () => {
             Neos- Quiz
             </Link>
 
-            <Link to='/' className='guide-button'>
+            <Link to='/Guide' className='guide-button'>
             guidelines
             </Link>   
         </div>
