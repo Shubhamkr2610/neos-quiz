@@ -1,18 +1,16 @@
-import { heroimg , quiz2, quiz3, quiz4} from 'asset'
+import { heroimg} from 'asset'
 import { Categories } from 'components/categories/Categories'
-import { QuizCard } from 'components/quizCard/QuizCard'
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './Home.css'
 
- 
 export const Home = () => {
   return (
     <>
     <div className='content'>
      <div className='setting'>
        <span className='quiz-intro'>Welcome to Neos Quiz
-        Bored. Want to have fun?
+        Board. Want to have fun?
         Participate in the quizzes handpicked for you </span>
         <button className='quiz-explore'>
           <Link to='/'>
