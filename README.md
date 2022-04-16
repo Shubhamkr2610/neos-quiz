@@ -1,70 +1,104 @@
-# Getting Started with Create React App
+<div align="center">
+  
+# [NeoQuiz](https://shoeshopper-react.netlify.app/) 
+##  Play Quiz  , Have fun 
+  
+<!--   ![image](https://user-images.githubusercontent.com/91511639/163553337-079970fc-ef46-4521-a415-fd158501f95d.png) -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) 
+![](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)<br><br>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a1fe7d1f-75e9-4c30-bd3a-8df76d74c08c/deploy-status)](https://app.netlify.com/sites/neos-ui/deploys)
 
-## Available Scripts
+</div>
 
-In the project directory, you can run:
+---
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# 📖 About 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+NeoQuiz is an online quiz app built in ReactJs , It provides you different quizes in different category to test your knowdledge .
 
-### `npm test`
+Give it a try today.
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
+# 🚀 Features It has
 
-### `npm run build`
+### Categories
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+     Computer science 
+     Mathematics
+     Html And Css
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    
+### In Header
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- navigate to the Home page back, click on the NeoQuiz logo
+- navigate to the Guideline Page,  click on the Guideline button
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### In Footer
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- it contains copyright information, contact details, etc.
+- connect with me
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### In Home
 
-## Learn More
+- redirect to categories in bottom of the home page  , click on play now button
+- click on the Category in which you want to play Quiz
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### In Quiz Page
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- show the multiple option type questions based on selected category . 
 
-### Code Splitting
+- it has  10 questions at a time in one category .
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- you have to select only one option at a time and proceed to next question on clicking the next button on the botton of the quiz page  .
 
-### Analyzing the Bundle Size
+- you can attend all the questions on your choice or if don't know the answer of the any particular qustion , you can simply skip the questions by clicking the next button .
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### In result page
 
-### Making a Progressive Web App
+- show the result( score ) of quiz attempted by user.
+- show the selected option choosen by user while attempting the quiz and simultaneously 
+- also show the correct options of all the questions .
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
+    
+# ✨ Features You will See in Future
+Search quiz by different categories
+Login Authentication
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### 🔌 Getting Started
+- clone the repository on your local machine with the command below in your terminal, and cd into the shoeshopper-react folder
 
-### Deployment
+      git clone https://github.com/Shubhamkr2610/neos-quiz.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+      cd neos-quiz
+      
+- install dependencies (if you are using yarn then do with that)
 
-### `npm run build` fails to minify
+      npm install
+      
+- start the server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+      npm start
+
+
+---
+
+
+## :computer:Connect with me 	:point_down:
+
+<a href="https://twitter.com/shubhamkr_26"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/shubham-kumar-6625b8217/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="https://www.instagram.com/i_subhu/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
+
+
+
+
