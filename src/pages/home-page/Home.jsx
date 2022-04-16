@@ -1,7 +1,7 @@
+import { heroimg} from 'asset'
+import { Categories } from 'components/categories/Categories'
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { heroimg , quiz2, quiz3, quiz4} from 'asset'
-import { QuizCard } from 'components'
 import './Home.css'
 
 export const Home = () => {
@@ -23,9 +23,7 @@ export const Home = () => {
     </div>
     <h1 className='category-heading'>Categories</h1>
     <div className='quiz-category'>
-        <QuizCard title="Html & Css" image={quiz2}/>
-        <QuizCard title=" Science"image={quiz3}/>
-        <QuizCard title="Tech" image={quiz4}/>
+        <Categories />
     </div>
     </>
   )

@@ -2,6 +2,7 @@ import { Home, Quiz, Result, Guide} from 'pages';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import {Header , Footer} from './components/index';
 import './App.css';
+import { PlayNowQuiz } from 'components/playnow/PlayNowQuiz';
 
 function App() {
   return (
@@ -10,10 +11,12 @@ function App() {
       <div className="app">
         <Header />
         <Routes>
-          <Route path="/" exact element={ <Home /> }/>
+          <Route path="/" exact element={ <Home /> }/> 
           <Route path="/Quiz" exact element={ <Quiz /> }/>
           <Route path="/Result" exact element={ <Result /> }/>
-          <Route path="/Guide" exact element={ <Guide /> }/>
+          <Route path="/guideline"  element={ <Guide /> }>
+            <Route path=":guidelineId" element = {<PlayNowQuiz/>}/>
+          </Route>
         </Routes>
         </div>
         <Footer />
