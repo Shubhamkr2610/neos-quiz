@@ -1,0 +1,6 @@
+.result-score{
+    text-align: center;
+    color: var(  --quiz-color-primary);
+    font-size: xx-large;
+    font-weight: 700;
+}

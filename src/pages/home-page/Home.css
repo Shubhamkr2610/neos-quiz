@@ -19,7 +19,6 @@ body{
     font-size: 2rem;
 }
 .quiz-explore{
-    font-family:"Poppins", sans-serif;
     border: none;
     height: 2rem;
     border-radius: 5px;
@@ -57,4 +56,5 @@ body{
     display: flex;
     justify-content: space-around;
     margin: 2rem;
+    min-height: 40vh;
 }

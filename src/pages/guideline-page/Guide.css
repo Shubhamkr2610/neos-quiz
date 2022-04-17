@@ -27,7 +27,6 @@ body {
 }
 
 .rules {
-    font-family: "Poppins", sans-serif;
     border-top: 4px solid var(--quiz-color-primary);
     color: var(--quiz-color-primary);
     text-align: left;
@@ -35,7 +34,6 @@ body {
 }
 
 .start-play-quiz {
-    font-family: "Poppins", sans-serif;
     border: none;
     height: 2rem;
     border-radius: 5px;
