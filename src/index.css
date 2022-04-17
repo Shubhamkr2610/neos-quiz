@@ -7,4 +7,6 @@
     --quiz-color-navbar:#c7f0fa;
     --quiz-color-form:#f8f4f4;
     --quiz-wishlist-color:#696969;
+    --quiz-wrong-answer: #ff0000;
+    --quiz-right-answer: #008000;
 }
