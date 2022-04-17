@@ -1,6 +1,6 @@
 import { useQuiz } from 'context/quizContext'
 import React from 'react'
-import "./result.css"
+import "./Result.css"
 
 export const Result = () => {
 
