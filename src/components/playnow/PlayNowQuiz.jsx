@@ -9,7 +9,7 @@ export const  PlayNowQuiz = () => {
   return (
    <>
    <button className='start-play-quiz' onClick={()=>fetchData(params.guidelineId)}>
-          <Link to='/Quiz"'>
+          <Link to='/quiz'>
           Start quiz
           </Link>
     </button>

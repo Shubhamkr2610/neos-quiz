@@ -28,8 +28,11 @@
 .start-quiz{
     font-family: "Poppins", sans-serif;
     border: none;
-    height: 2rem;
+    display: block;
+    text-align: center;
+    height: 2.5rem;
     border-radius: 5px;
+    /* background:  yellow; */
     background:  var(--quiz-color-primary);
     color: var(--quiz-color-secondary);
     width: 100%;

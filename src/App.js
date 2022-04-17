@@ -12,8 +12,8 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" exact element={ <Home /> }/> 
-          <Route path="/Quiz" exact element={ <Quiz /> }/>
-          <Route path="/Result" exact element={ <Result /> }/>
+          <Route path="/quiz" exact element={ <Quiz /> }/>
+          <Route path="/result" exact element={ <Result /> }/>
           <Route path="/guideline"  element={ <Guide /> }>
             <Route path=":guidelineId" element = {<PlayNowQuiz/>}/>
           </Route>
