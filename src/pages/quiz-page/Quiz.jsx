@@ -1,7 +1,7 @@
 import { useQuiz } from 'context/quizContext'
 import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom';
-import './quiz.css';
+import './Quiz.css';
 export const Quiz = () => {
 
   const navigate = useNavigate();
