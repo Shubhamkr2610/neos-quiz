@@ -1,9 +1,8 @@
 <div align="center">
   
-# [NeoQuiz](https://shoeshopper-react.netlify.app/) 
-##  Play Quiz  , Have fun 
-  
-<!--   ![image](https://user-images.githubusercontent.com/91511639/163553337-079970fc-ef46-4521-a415-fd158501f95d.png) -->
+# [NeosQuiz](https://neosquiz.netlify.app/) 
+## Want to have fun? Participate in the quizzes handpicked for you.
+###  Play Quiz  , Have fun 
 
 ![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) 
@@ -18,7 +17,7 @@
 
 # 📖 About 
 
-NeoQuiz is an online quiz app built in ReactJs , It provides you different quizes in different category to test your knowdledge .
+NeosQuiz is an online quiz app built in ReactJs , It provides you different quizes in different category to test your knowdledge .
 
 Give it a try today.
 ---
@@ -30,12 +29,12 @@ Give it a try today.
 
      Computer science 
      Mathematics
-     Html And Css
+     Html, Css , Js
 
     
 ### In Header
 
-- navigate to the Home page back, click on the NeoQuiz logo
+- navigate to the Home page back, click on the NeosQuiz logo
 - navigate to the Guideline Page,  click on the Guideline button
 
 
@@ -99,6 +98,8 @@ Login Authentication
 <a href="https://www.linkedin.com/in/shubham-kumar-6625b8217/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="https://www.instagram.com/i_subhu/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
 
+
+![neosquiz](https://user-images.githubusercontent.com/91511639/163733695-0d805a24-4c01-4bd2-916a-e1c3fce83d06.gif)
 
 
 
