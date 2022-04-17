@@ -56,4 +56,5 @@ body{
     display: flex;
     justify-content: space-around;
     margin: 2rem;
+    min-height: 40vh;
 }

@@ -1,7 +1,6 @@
 import { heroimg} from 'asset'
 import { Categories } from 'components/categories/Categories'
 import React from 'react'
-// import { Link } from 'react-router-dom'
 import './Home.css'
 
 export const Home = () => {
@@ -22,7 +21,7 @@ export const Home = () => {
      
     </div>
     <h1 className='category-heading' id='quiz-card-category' >Categories</h1>
-    <div className='quiz-category' style={{minHeight: "40vh"}}>
+    <div className='quiz-category' >
         <Categories />
     </div>
     </>
