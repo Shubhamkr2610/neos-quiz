@@ -8,7 +8,9 @@ const quizContext = createContext()
 
 
  const Quizprovider = ({children}) =>{
-     const [ questionCollection ,  setQuestionCollection ] = useState([])
+     const [ questionCollection ,  setQuestionCollection ] = useState([]);
+     const [score, setScore] = useState(0);
+     const [result , setResult ] = useState([]);
 
 
 
@@ -19,7 +21,7 @@ const quizContext = createContext()
 
     }
 return(
-    <quizContext.Provider value={{fetchData , questionCollection}}>
+    <quizContext.Provider value={{fetchData , questionCollection , score, setScore, result , setResult}}>
         {children}
     </quizContext.Provider>
 

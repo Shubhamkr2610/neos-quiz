@@ -1,7 +1,7 @@
 import { heroimg} from 'asset'
 import { Categories } from 'components/categories/Categories'
 import React from 'react'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import './Home.css'
 
 export const Home = () => {
@@ -13,16 +13,16 @@ export const Home = () => {
         Board. Want to have fun?
         Participate in the quizzes handpicked for you </span>
         <button className='quiz-explore'>
-          <Link to='/'>
+          <a href='#quiz-card-category'>
           Explore quizzes
-          </Link>
+          </a>
         </button>
       </div>
      <img src={ heroimg } className='banner' alt="quiz-image" />
      
     </div>
-    <h1 className='category-heading'>Categories</h1>
-    <div className='quiz-category'>
+    <h1 className='category-heading' id='quiz-card-category' >Categories</h1>
+    <div className='quiz-category' style={{minHeight: "40vh"}}>
         <Categories />
     </div>
     </>

@@ -6,21 +6,21 @@ export const categories = [
     
 _id : uuid(),
 name: "science",
-image: quiz4,
+image: quiz3,
 link:"https://opentdb.com/api.php?amount=10&category=18&difficulty=easy&type=multiple"
 },
     {
     
 _id : uuid(),
 name: "tech",
-image: quiz2,
+image: quiz4,
 link:"https://opentdb.com/api.php?amount=10&category=21&difficulty=easy&type=multiple"
 },
     {
     
 _id : uuid(),
-name: "html",
-image: quiz3,
+name: "html , css, js",
+image: quiz2,
 link:"https://opentdb.com/api.php?amount=10&category=11&difficulty=easy&type=multiple"
 },
 ]
